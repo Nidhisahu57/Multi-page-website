@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F0F4F5;
+   text-align: center;
+   font-family: "IBM Plex Sans", sans-serif;
+}
+
+/* ----------------------------navbar--------------------------------- */
+.heading{
+    padding: 30px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 150px;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 800;
+}
+.logo{
+  height: 50px;
+}
+/* -----------------------------------home page-------------------------------- */
+
+#index-main{
+    display: flex;
+    align-items: center;
+
+}
+.left-section{
+    width: 60%;
+    padding: 0 130px 0 180px;
+}
+.up-angle{
+    display: flex;
+    justify-content: left;
+    width: 25px;
+}
+div h1{
+    font-size: 70px;
+    text-align: left;
+}
+div p{
+    font-size: medium;
+    color:#7c7c7c;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+div button{
+    width: fit-content;
+    border-radius: 30px;
+    background-color: #20BC7E;
+    color: white;
+    cursor: pointer;
+    padding: 10px 30px;
+    border: none;
+    display: flex;
+    justify-content: left;
+    font-size: large;
+    font-weight: bold;
+}
+.down-angle{
+    width: 25px;
+    position: absolute;
+    right:50%;
+  
+   
+}
+div .stethoscope {
+    position: absolute;
+    width: 35%;
+    top: 260px;
+    left: 430px;
+    z-index: -1;
+    
+  }
+  .mouse {
+    position: absolute;
+    right: 47%;
+    top: 100%;
+    width: 30px;
+  }
+.right-section{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.green{
+    position: absolute;
+    top: 340px;
+    right: 5px;
+    z-index: 1;
+    height: 540px;
+   
+}
+.yellow{
+    position: absolute;
+    top: 430px;
+    right: 5px;
+    z-index: 3;
+    height: 450px;
+    /* padding: 50px 10px 30px 50px; */
+}
+.doctor{
+    position: relative;
+    z-index: 5;
+    height: 800px;
+    margin-right: 0;
+}
+
+
+ /* ----------------------------------Contact Page----------------------------- */
+ #main{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+ }
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 350px;
+    gap:15px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+ }
+ form h1{
+    text-align: center;
+ }
+ form div{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+ }
+ form div label{
+    font-size: 18px;
+    font-family: 500;
+    margin-bottom: 5px;
+ }
+ form div input{
+    border-radius: 10px;
+    border: transparent;
+    padding: 5px 10px;
+ }
+ form div textarea{
+    resize: none;
+    height: 100px;
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 10px;
+ }
+ form button{
+    border: transparent;
+    border-radius: 10px;
+    background: #20BC7E;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 1px;
+    cursor: pointer;
+    height: 36px;
+ }
+
+ /* -------------------------------About Page------------------------------- */
+
+.main-heading-about{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   flex-direction: column;
+  padding: 150px 300px;
+}
+.main-heading-about h1{
+    text-align: center;
+    font-size: 30px;
+}
+.main-heading-about h1, .main-heading-about h2{
+    color: #20BC7E;
+   
+
+   
+}
+.main-heading-about p{
+    padding: 20px 160px 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    margin: 0;
+}
+.features{
+    display: flex;
+  
+}
+div.btn{
+  width: 180px;
+  height: 100px;
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+}
+.main-heading-about div{
+    margin: 20px 20px;
+}
+
